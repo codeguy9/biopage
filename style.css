@@ -176,3 +176,16 @@ footer h2 {
 .icons {
     font-size: 3rem;
 }
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+  .activities {
+    flex-wrap: wrap;
+  }
+
+  .image img {
+    width: 15em;
+    height: 10em;
+  }
+  }
